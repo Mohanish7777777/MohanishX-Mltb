@@ -89,7 +89,8 @@ class WZMLStyle:
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
+┠ <b>Version:</b> {version}
+┖ <b>Made With ❤️ Mohanish </b>'''
     RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
     # ---------------------
 
