@@ -28,7 +28,8 @@ class WZMLStyle:
 ┃ {disk_bar} {disk}%
 ┃ <b>Total Disk Read :</b> {disk_read}
 ┃ <b>Total Disk Write :</b> {disk_write}
-┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+┃ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+┖ <b>Powered By MohanishX ⚡</b>
     
     '''
     SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
@@ -49,7 +50,8 @@ class WZMLStyle:
 ┠ <b>System Avg Load :</b> {sys_load}
 ┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
 ┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┠ <b>Usable CPU(s) :</b> {cpu_use}
+┖ <b>Powered By MohanishX ⚡</b>
     '''
     REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
@@ -72,7 +74,9 @@ class WZMLStyle:
 ┎ <b>Token Validity :</b> {TV}
 ┠ <b>User Time Limit :</b> {UTI} / task
 ┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┠ <b>Bot Parallel Tasks :</b> {BT}
+┖ <b>Powered By MohanishX ⚡</b>
+
     '''
     # ---------------------
 
@@ -105,8 +109,8 @@ class WZMLStyle:
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Task Started </u></b>\n┃\n┖<b> MohanishX ⚡</b>"
+    L_LOG_START =           "➲ <b><u>Leech Started </u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖<b> MohanishX ⚡</b>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
